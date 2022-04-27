@@ -26,6 +26,16 @@ ERDs
 
 <img width="923" alt="Screen Shot 2022-04-26 at 9 01 48 PM" src="https://user-images.githubusercontent.com/88109038/165437918-7eba268e-a41e-463b-9f89-45aadd101d27.png">
 
+Installation Instructions
+
+1) In terminal 
+mkdir mybnb && cd mybnb
+
+2) In terminal - Make sure env is active
+pipenv shell
+
+
+
 
 Wireframes
 
