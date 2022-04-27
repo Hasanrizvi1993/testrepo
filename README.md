@@ -9,19 +9,24 @@ with people who are looking for accommodations & wanting to rent automobiles in 
 
 User Stories
 
-<img width="879" alt="Screen Shot 2022-04-16 at 2 26 59 PM" src="https://user-images.githubusercontent.com/88109038/163691803-3fc1dd71-b668-46d7-a3d8-a9620b9f8430.png">
+<img width="1010" alt="Screen Shot 2022-04-26 at 8 58 22 PM" src="https://user-images.githubusercontent.com/88109038/165437358-7a59d453-8a20-48a9-90c9-58753f66cc3e.png">
+
+
 
 User flows
 
+<img width="1242" alt="Screen Shot 2022-04-26 at 9 01 05 PM" src="https://user-images.githubusercontent.com/88109038/165437843-4ddbc54b-8ec3-4280-b4ff-4db306614b2a.png">
 
-![Screen Shot 2022-04-16 at 2 30 31 PM](https://user-images.githubusercontent.com/88109038/163691893-122f60f5-007c-4399-bf47-f9dcfc5c16d1.png)
 
 
 ERDs
 
-<img width="832" alt="Screen Shot 2022-04-16 at 2 28 02 PM" src="https://user-images.githubusercontent.com/88109038/163691818-a7b890d6-8353-4522-826c-3685e176fc40.png">
+<img width="923" alt="Screen Shot 2022-04-26 at 9 01 48 PM" src="https://user-images.githubusercontent.com/88109038/165437918-7eba268e-a41e-463b-9f89-45aadd101d27.png">
+
 
 Wireframes
+
+<img width="992" alt="Screen Shot 2022-04-26 at 9 02 31 PM" src="https://user-images.githubusercontent.com/88109038/165437993-6ab58f08-f7f7-4774-b27f-2cbcf9b1a135.png">
 
 
 ![Screen Shot 2022-04-16 at 2 31 03 PM](https://user-images.githubusercontent.com/88109038/163691907-fc630be7-df5f-4081-8982-8a3ff0027c84.png)
