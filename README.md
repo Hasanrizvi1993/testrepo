@@ -65,15 +65,7 @@ DATABASES = {
 }
   
 5. Generate a new secret key
-I like using Djecrety to quickly generate secure secret keys.
-Djecrety
-Djecrety is a Django secret key generator. This is a web tool to generate SECRET_KEY and also have a Django package…
-djecrety.ir
-
-I also use a .env file to secure my secret key and database credentials. To find out more, check out my post on the topic.
-How to set up environment variables in Django
-It is important to keep sensitive bits of code like API keys and passwords away from prying eyes. The best way to do…
-medium.com
+I also use a .env file to secure my secret key and database credentials. 
 
 6. Rename the project
 Rename the directory that contains settings.py. Do a find all and replace to rename all instances of the new project name.
@@ -81,8 +73,8 @@ Rename the directory that contains settings.py. Do a find all and replace to ren
 7. Make your migrations
 The only migrations that should appear in each of your app’s migrations folders are called ‘__init__.py’. As we have started a new database, we can delete any existing migrations and migrate from scratch.
 In your terminal:
-$ python manage.py makemigrations
-$ python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
   
 8. Create a new superuser
 python manage.py createsuperuser
@@ -90,8 +82,6 @@ python manage.py createsuperuser
 9. Final checks
 Start the development server and ensure everything is running without errors.
 python manage.py runserver
-
-
 
 
 Wireframes
