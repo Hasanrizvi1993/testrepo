@@ -28,11 +28,68 @@ ERDs
 
 Installation Instructions
 
-1) In terminal 
+In terminal 
 mkdir mybnb && cd mybnb
 
-2) In terminal - Make sure env is active
+In terminal - Make sure env is active
 pipenv shell
+
+1. Clone the repository
+git clone https://github.com/<username>/<forked-repo>.git
+  
+2. Create your own virtual environment
+python3 -m venv venv
+source venv/bin/activate
+  
+Virtual environments are where dependencies are stored, similar to node_modules in JavaScript. Every time you start your machine, you must activate the virtual environment using source venv/bin/activate.
+  
+3. Install your requirements
+pip install -r requirements.txt
+  
+4. Create a new PostgreSQL database
+For this, I’m assuming you already have pgAdmin and postgres installed. Apologies for the lack of detail here.
+In your terminal:
+$ psql postgres
+$ CREATE DATABASE databasename
+$ \connect databasename
+Go into pgAdmin, login, and check that the new database exists on the dbserver.
+The database credentials to go in your project’s settings.py are the same credentials for pgAdmin.
+settings.py
+DATABASES = {
+‘default’: {
+‘ENGINE’: ‘django.db.backends.postgresql_psycopg2’,
+‘NAME’: env(‘DATABASE_NAME’),
+‘USER’: env(‘DATABASE_USER’),
+‘PASSWORD’: env(‘DATABASE_PASS’),
+}
+}
+  
+5. Generate a new secret key
+I like using Djecrety to quickly generate secure secret keys.
+Djecrety
+Djecrety is a Django secret key generator. This is a web tool to generate SECRET_KEY and also have a Django package…
+djecrety.ir
+
+I also use a .env file to secure my secret key and database credentials. To find out more, check out my post on the topic.
+How to set up environment variables in Django
+It is important to keep sensitive bits of code like API keys and passwords away from prying eyes. The best way to do…
+medium.com
+
+6. Rename the project
+Rename the directory that contains settings.py. Do a find all and replace to rename all instances of the new project name.
+  
+7. Make your migrations
+The only migrations that should appear in each of your app’s migrations folders are called ‘__init__.py’. As we have started a new database, we can delete any existing migrations and migrate from scratch.
+In your terminal:
+$ python manage.py makemigrations
+$ python manage.py migrate
+  
+8. Create a new superuser
+python manage.py createsuperuser
+  
+9. Final checks
+Start the development server and ensure everything is running without errors.
+python manage.py runserver
 
 
 
@@ -120,16 +177,6 @@ Delete Car
 Delete Home
 
 <img width="1433" alt="Screen Shot 2022-04-26 at 9 24 58 PM" src="https://user-images.githubusercontent.com/88109038/165440512-f5974595-3fe6-4bd4-be56-cb53af696c9f.png">
-
-
-
-
-
-
-
-
-
-
 
 
 
