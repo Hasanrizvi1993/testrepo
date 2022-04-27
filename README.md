@@ -2,9 +2,14 @@
 
 # Mybnb
 
+## Technologies used
+Django, Python3, HTML, CSS, Bootstrap, PostgreSQL
+
 ## About
 Mybnb is an online marketplace that connects people who want to rent out their homes and cars 
-with people who are looking for accommodations & wanting to rent automobiles in specific locales.
+with people who are looking for accommodations & wanting to rent automobiles in specific locales. Cusstomer can also use this site and use the search function 
+to locate car or homes or both in the city they plan to visit. They can use the listers email to contact them and book the home or car or both.
+
 
 
 User Stories
@@ -56,6 +61,21 @@ Wireframes
 
 
 ![Screen Shot 2022-04-16 at 3 08 28 PM](https://user-images.githubusercontent.com/88109038/163692790-68cd8740-1770-4fa2-bf92-557a5eb17076.png)
+
+
+APP Screenshots
+
+## Home
+
+<img width="1433" alt="Screen Shot 2022-04-26 at 9 15 05 PM" src="https://user-images.githubusercontent.com/88109038/165439349-7a64b2d6-d0a2-4364-98bc-e00eefc606c2.png">
+
+## Places to stay
+
+<img width="1433" alt="Screen Shot 2022-04-26 at 9 15 57 PM" src="https://user-images.githubusercontent.com/88109038/165439430-0a9b205b-46f8-493b-8d93-7255338fd4b9.png">
+
+
+
+
 
 
 Future Enhancement
